@@ -9,8 +9,6 @@ dos números usando restas sucesivas.
 import java.util.Scanner;
 
 public class Ejercicio03 {
-
-    // 🔹 División iterativa
     public static int divIte(int dividendo, int divisor) {
         int cociente = 0;
         
@@ -23,7 +21,6 @@ public class Ejercicio03 {
         return cociente;
     }
 
-    // 🔹 División recursiva
     public static int divRecu(int dividendo, int divisor) {
         if (dividendo < divisor) {
             return 0;

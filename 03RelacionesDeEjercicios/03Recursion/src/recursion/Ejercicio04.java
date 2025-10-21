@@ -18,12 +18,6 @@ public class Ejercicio04 {
         }
     }
 
-    /*
-    public static int longitudIte(String texto) {
-        //???
-    }
-    */
-
     public static void main(String[] args) {
         Scanner reader = new Scanner(System.in);
         System.out.println("LONGITUD DE UNA CADENA (versión recursiva)");
